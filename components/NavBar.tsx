@@ -1,43 +1,89 @@
-export const NavBar = () => {
+const NavBar = () => {
   return (
-    <nav className="w-full h-16  items-center  bg-black flex  justify-between">
+    <nav className="navBar w-full h-16 items-center flex  justify-between">
       <div>
         <picture>
           <img src="../logo_pc.png" alt="" />
         </picture>
         {/* <h1 className="text-white items-end">PC</h1> */}
       </div>
-      <div className=" w-96  flex flex-row justify-center items-center gap-2 ">
+      <div className=" flex flex-row justify-center items-center gap-2 ">
         <a href=""></a>
-        <a href="" className=" text-emerald-300 ">
-          + Crear publicación
+        <a
+          href=""
+          className=" text-emerald-300 w-30 colorBlue flex flex-row justify-center items-center gap-2"
+        >
+          <picture>
+            <img src="../plus.png" alt="" />
+          </picture>
+          Crear publicación
         </a>
-        <a href="" className="text-white flex flex-row ">
-          <p className="text-red-700 flex "> ♡ </p> Mis votos
+        <a href="" className="text-white flex flex-row w-30 gap-1">
+          <svg
+            className="text-red-700 flex "
+            width="19"
+            height="16"
+            viewBox="0 0 19 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.675 1C3.09313 1 1 3.00868 1 5.4864C1 9.97279 6.525 14.0513 9.5 15C12.475 14.0513 18 9.97279 18 5.4864C18 3.00868 15.9069 1 13.325 1C11.744 1 10.3458 1.75331 9.5 2.90631C9.06891 2.31705 8.49622 1.83614 7.8304 1.50431C7.16458 1.17248 6.42525 0.999492 5.675 1Z"
+              stroke="#FF64BC"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Mis votos
         </a>
         <a
           href=""
-          className="text-white flex flex-row justify-center items-center"
+          className="text-white flex flex-row justify-center items-center gap-1"
         >
-          <picture className="">
-            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-              <path d="M11.1 35.25q3.15-2.2 6.25-3.375Q20.45 30.7 24 30.7q3.55 0 6.675 1.175t6.275 3.375q2.2-2.7 3.125-5.45Q41 27.05 41 24q0-7.25-4.875-12.125T24 7q-7.25 0-12.125 4.875T7 24q0 3.05.95 5.8t3.15 5.45ZM24 25.5q-2.9 0-4.875-1.975T17.15 18.65q0-2.9 1.975-4.875T24 11.8q2.9 0 4.875 1.975t1.975 4.875q0 2.9-1.975 4.875T24 25.5ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.775t4.3-6.35q2.725-2.725 6.375-4.3Q19.9 4 24 4q4.15 0 7.775 1.575t6.35 4.3q2.725 2.725 4.3 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.3 6.375-2.725 2.725-6.35 4.3Q28.15 44 24 44Zm0-3q2.75 0 5.375-.8t5.175-2.8q-2.55-1.8-5.2-2.75-2.65-.95-5.35-.95-2.7 0-5.35.95-2.65.95-5.2 2.75 2.55 2 5.175 2.8Q21.25 41 24 41Zm0-18.5q1.7 0 2.775-1.075t1.075-2.775q0-1.7-1.075-2.775T24 14.8q-1.7 0-2.775 1.075T20.15 18.65q0 1.7 1.075 2.775T24 22.5Zm0-3.85Zm0 18.7Z" />
-            </svg>
+          <picture>
+            <img
+              className=" absolute"
+              src="../material-symbols_person-rounded.png"
+              alt=""
+            />
+            <img
+              className=" relative right-1 bottom-1"
+              src="../Ellipse 3.png"
+              alt=""
+            />
           </picture>
           iniciar secion
         </a>
+        <a href="">
+          <svg
+            className=" w-8"
+            width="10"
+            height="6"
+            viewBox="0 0 10 6"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 1L5 6L0 1L0.8875 0.1125L5 4.225L9.1125 0.1125L10 1Z"
+              fill="#A7A6A7"
+            />
+          </svg>
+        </a>
       </div>
       {/* <div className="p-6 max-w-sm mx-auto bg-black rounded-xl shadow-lg flex items-center space-x-4">
-        <div className="shrink-0">
-          {/* <picture>
-            <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
-        </picture> */}
+      <div className="shrink-0">
+        {/* <picture>
+          <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+      </picture> */}
       {/* </div>
-        <div>
-          <div className="text-xl font-medium text-black">ChitChat</div>
-          <p className="text-slate-500">You have a new message!</p>
-        </div>
-      </div> */}
+      <div>
+        <div className="text-xl font-medium text-black">ChitChat</div>
+        <p className="text-slate-500">You have a new message!</p>
+      </div>
+    </div> */}
     </nav>
   );
 };
+
+export default NavBar;
