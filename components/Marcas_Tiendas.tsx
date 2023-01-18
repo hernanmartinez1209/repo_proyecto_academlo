@@ -1,7 +1,7 @@
 const Marcas_Tiendas = () => {
   return (
     <a
-      className=" flex items-center justify-center a w-48 h-9  rounded-2xl bg-white "
+      className=" flex items-center justify-center a w-48 h-9  rounded-2xl bg-white routes-bg"
       href="Marcas y Tiendas"
     >
       Marcas y Tiendas

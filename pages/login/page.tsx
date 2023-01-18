@@ -1,17 +1,14 @@
-// import styleHome from "../styles/stylesHome.css";
-// import '../styles/login.module.css';
-
-export const Login = () => {
+const LoginPage: React.FC = () => {
   return (
-    <div className="login_principal">
+    <div className="login_principal flex">
       <picture className="img_bg">
         <img src="../Rectangle 133.jpg" alt="" width={'500px'} />
       </picture>
       <div className="from_login">
-        <picture className="logo">
+        <picture className="logo relative left-72 top-28">
           <img src="../logo_para_cuando.jpg" alt="" />
         </picture>
-        <h1 className="title_principal">Login</h1>
+        <h1 className="title_principal relative">Login</h1>
         <p className="p_from">
           Login with the data you entered during your registration.
         </p>
@@ -31,3 +28,5 @@ export const Login = () => {
     </div>
   );
 };
+
+export default LoginPage;

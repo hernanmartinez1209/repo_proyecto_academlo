@@ -36,6 +36,7 @@
   color: #fff;
 }
 
+.routes-bg,
 body {
   background-color: var(--bg-page);
 }
