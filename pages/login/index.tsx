@@ -1,4 +1,4 @@
-const LoginPage: React.FC = () => {
+const LoginPage = () => {
   return (
     <div className="login_principal flex">
       <picture className="img_bg">

@@ -1,4 +1,4 @@
-const btn_next = () => {
+const Btn_next = () => {
   return (
     <div className=" w-full flex justify-center items-center">
       <button className="btn-netx">Siguiente</button>
@@ -7,4 +7,4 @@ const btn_next = () => {
   );
 };
 
-export default btn_next;
+export default Btn_next;

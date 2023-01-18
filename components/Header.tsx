@@ -2,7 +2,6 @@ import Serch from '../components/Serch';
 import Artistas_Conciertos from './Artistas_Conciertos';
 import Marcas_Tiendas from './Marcas_Tiendas';
 import Torneos from './Torneos';
-
 const Header = () => {
   return (
     <header>
