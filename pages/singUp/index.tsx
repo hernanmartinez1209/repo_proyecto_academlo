@@ -1,10 +1,10 @@
-const LoginPage = () => {
+const SingUp = () => {
   return (
     <div className="login_principal flex routes-bg">
       <picture>
-        <img src="../Rectangle 133.jpg" alt="" width={'500px'} />
+        <img src="../pantallaSingup.jpg" alt="" width={'500px'} />
       </picture>
-      <div className="from_login relative left-28">
+      <div className="from_login relative left-28 bottom-16">
         <picture className="logo relative left-52 top-28">
           <svg
             width="187"
@@ -69,7 +69,7 @@ const LoginPage = () => {
         </picture>
         <div className="container_login relative top-52 left-28">
           <h1 className="title_principal relative text-3xl font-bold ">
-            Login
+            Sign up
           </h1>
           <p className="p_from text-lg">
             Login with the data you entered during your registration.
@@ -83,12 +83,21 @@ const LoginPage = () => {
             Email
           </label>
           <input className="input_email h-8" type="text" />
+          <label htmlFor="">Nombre</label>
+          <input type="text" className="input_email h-8 w-52" />
+          <label htmlFor="" className=" absolute top-16 left-60">
+            Apellido
+          </label>
+          <input
+            type="text"
+            className="input_email h-8 w-52 absolute top-24 left-60"
+          />
           <label htmlFor="password" className="label_password">
             Password
           </label>
           <input className="input_password h-8" type="password" />
           <button className="btn_Login h-8 colorBluegb text-white relative top-2">
-            Login
+            Crear cuenta
           </button>
         </form>
         <p className="p2_login relative top-56 left-52">
@@ -99,4 +108,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SingUp;

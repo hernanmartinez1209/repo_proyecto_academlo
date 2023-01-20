@@ -26,6 +26,10 @@
 
 }
 
+.colorBluegb {
+  background-color: var(--color-bg-btn);
+}
+
 .colorBlue {
   color: var(--pharagap-nav-blue);
 }
