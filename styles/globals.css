@@ -115,12 +115,25 @@ body {
     width: 1360px
   }
 
-  .centarItemen {
+  .left-02 {
     position: relative;
-    left: 38%;
+    top: 25rem;
+    /* 224px */
+    left: 610px;
+    z-index: 5000;
+  }
 
+  .addpadding {
+    padding: 100px;
   }
 }
+
+.centarItemen {
+  position: relative;
+  left: 38%;
+
+}
+
 
 
 

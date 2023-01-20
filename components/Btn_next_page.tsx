@@ -1,6 +1,6 @@
 const Btn_next_page = () => {
   return (
-    <div className=" h-20 flex justify-center">
+    <div className=" h-20 flex justify-center  left-02">
       <svg
         className=" relative  bottom-1"
         width="53"
@@ -18,7 +18,7 @@ const Btn_next_page = () => {
         <img src="../flecha.png" alt="" />
       </picture>
       <div>
-        <svg
+        {/* <svg
           className=" relative  top-1"
           width="53"
           height="53"
@@ -33,7 +33,7 @@ const Btn_next_page = () => {
         </svg>
         <picture className=" relative left-3 bottom-10">
           <img src="../flecha.png" alt="" />
-        </picture>
+        </picture> */}
       </div>
     </div>
   );
