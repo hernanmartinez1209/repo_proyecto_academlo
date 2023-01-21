@@ -7,6 +7,7 @@ import Btn_next from '../components/Btn_next';
 import Btn_next_page from '../components/Btn_next_page';
 import Cart from '../components/Cart';
 import { Components } from '../components/Componenttt';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 
@@ -30,6 +31,7 @@ export default function Home() {
       <br />
       <br />
       <Components />
+      <Footer/>
     </>
   );
 }
