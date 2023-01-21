@@ -26,6 +26,20 @@
 
 }
 
+.border-c {
+  box-shadow: 1px 1px 5px #000;
+}
+
+.border-down {
+  box-shadow: 1px 1px 5px #000;
+
+}
+
+.text-gay {
+  color: #6E6A6C;
+
+}
+
 .colorBluegb {
   background-color: var(--color-bg-btn);
 }
