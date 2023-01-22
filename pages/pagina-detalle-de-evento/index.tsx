@@ -1,25 +1,15 @@
-import Artistas_Conciertos from '../../components/Artistas_Conciertos';
 import Cart from '../../components/Cart';
 import Footer from '../../components/Footer';
-import Marcas_Tiendas from '../../components/Marcas_Tiendas';
+import Mas_personal from '../../components/Mas_personal';
 import NavBar from '../../components/NavBar';
-import Serch from '../../components/Serch';
-import Torneos from '../../components/Torneos';
+import Resent_serch from '../../components/Resent_serch';
 
 const PageDetalleDeEvento = () => {
   return (
     <article>
       <NavBar />
-      <div className="container-link border-down flex h-36 justify-center items-center ">
-        <div className=" flex relative right-32 gap-3">
-          <Marcas_Tiendas />
-          <Artistas_Conciertos />
-          <Torneos />
-        </div>
-        <div className=" relative top-24">
-          <Serch />
-        </div>
-      </div>
+      <Resent_serch />
+
       <div className="container-descripcion-event pt-52  pb-52  flex  w-full justify-center">
         <div className=" w-96">
           <p className=" font-semibold">Artista / Pop / Rock</p>
@@ -55,31 +45,7 @@ const PageDetalleDeEvento = () => {
           <img src="../Rectangle_362.jpg" alt="" />
         </picture>
       </div>
-      <h1 className=" relative left-64 top-24 font-bold text-gay w-full">
-        ¡Hagámoslo más personal!
-      </h1>
-      <p className=" relative  w-full left-64 top-24 text-gay">
-        Selecciona tus interes para brindarte sugerencia de acuerdo a tus gustos
-      </p>
-      <div className="container-HMP w-full flex h-52 border-down">
-        <ul className="flex justify-center items-center w-full relative top-7 gap-5 ">
-          <li className="rounded-2xl border-c h-9 w-36 text-center pt-1">
-            Restaurantes
-          </li>
-          <li className="rounded-2xl border-c h-9 w-36 text-center pt-1 ">
-            Tiendas de ropa
-          </li>
-          <li className="rounded-2xl border-c h-9 w-36 text-center pt-1">
-            Rock
-          </li>
-          <li className="rounded-2xl border-c h-9 w-36 text-center pt-1">
-            Restaurantes
-          </li>
-          <li className="rounded-2xl border-c h-9 w-36 text-center pt-1">
-            Restaurantes
-          </li>
-        </ul>
-      </div>
+      <Mas_personal />
       <div className="container-resientes pt-11">
         <h1 className="relative left-32 top-24 font-bold text-gay w-full">
           Recientes

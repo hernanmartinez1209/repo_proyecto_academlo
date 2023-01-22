@@ -40,6 +40,10 @@
 
 }
 
+.bg-gray {
+  background-color: #F8F7FA;
+}
+
 .colorBluegb {
   background-color: var(--color-bg-btn);
 }

@@ -6,22 +6,6 @@ import Marcas_Tiendas from './Marcas_Tiendas';
 import Torneos from './Torneos';
 
 const Header = () => {
-  // const [info, setInfo] = useState();
-
-  // useEffect(() => {
-  //   axios
-  //     .get(dataBase)
-  //     .then((res) => setInfo(res.data.namePublic))
-  //     .catch((err) => console.log(err));
-  // }, []);
-  // console.log(info);
-
-  // const fetchJoson = () => {
-  //   return fetch('../Data/dataFicticia.json').then((res) => res.json);
-  // };
-  // const respose = fetchJoson;
-  // console.log(respose);
-
   return (
     <header>
       <picture className=" flex justify-center items-center">

@@ -1,11 +1,13 @@
+import Link from 'next/link';
+
 const Torneos = () => {
   return (
-    <a
-      className=" border-c flex items-center justify-center w-48 h-9 text-center rounded-2xl routes-bg border-black "
-      href="Torneos"
+    <Link
+      className="flex items-center justify-center a w-48 h-9  rounded-2xl border-c routes-bg"
+      href="/torneos-y-eventos"
     >
       Torneos
-    </a>
+    </Link>
   );
 };
 
