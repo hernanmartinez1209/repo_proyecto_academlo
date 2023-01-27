@@ -3,10 +3,11 @@ import Link from 'next/link';
 const NavBar = () => {
   return (
     <nav className="navBar w-full h-16 items-center flex  justify-between flex-row">
-      <picture>
-        <img src="../logo_pc.png" alt="" />
-      </picture>
-
+      <Link href="/">
+        <picture>
+          <img src="../logo_pc.png" alt="" />
+        </picture>
+      </Link>
       <ul className=" flex flex-row gap-5 relative right-3">
         <li className="">
           <Link
@@ -15,12 +16,12 @@ const NavBar = () => {
           >
             <picture className="">
               <img
-                className=" absolute"
+                className=" absolute "
                 src="../material-symbols_person-rounded.png"
                 alt=""
               />
               <img
-                className=" relative right-1 bottom-1"
+                className=" relative right-[5px] bottom-[3px]"
                 src="../Ellipse 3.png"
                 alt=""
               />
@@ -30,11 +31,11 @@ const NavBar = () => {
         </li>
         <li>
           <Link
-            className="flex  justify-center items-center gap-2"
+            className="flex  justify-center items-center gap-2 relative top-[4px]"
             href="/misvotos"
           >
             <svg
-              className="text-red-700 flex "
+              className="text-red-700 flex  relative "
               width="19"
               height="16"
               viewBox="0 0 19 16"
@@ -54,7 +55,7 @@ const NavBar = () => {
         </li>
         <li>
           <Link
-            className="flex  justify-center items-center gap-2"
+            className="flex  justify-center items-center gap-2  relative top-[3px]"
             href="/multitest-form-page"
           >
             <picture>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Likes from './Likes';
@@ -30,7 +31,7 @@ const Cart = () => {
   const userVotos = db.map((user) => user.votos);
   return (
     //
-    <article className=" flex justify-center gap-4 pad addpadding">
+    <article className=" flex justify-center lg:gap-4 xl:gap-4 xs:gap-4  pad addpadding max">
       <Swiper
         spaceBetween={50}
         slidesPerView={3}
@@ -69,10 +70,11 @@ const Cart = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="w-72  color_cart">
-            <picture>
-              <img src={userImg[0]} alt="" />
-            </picture>
-
+            <Link href="/pagina-detalle-de-evento">
+              <picture>
+                <img src={userImg[0]} alt="" />
+              </picture>
+            </Link>
             <Likes />
             <article className="relative bottom-16">
               <h1 className="h1_cart padig-left"> {userName[0]} </h1>

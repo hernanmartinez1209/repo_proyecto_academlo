@@ -1,6 +1,11 @@
+import Link from 'next/link';
+
 const LoginPage = () => {
   return (
     <div className="login_principal flex routes-bg">
+      <Link className=" absolute right-7 top-10" href="/">
+        Home
+      </Link>
       <picture>
         <img src="../Rectangle 133.jpg" alt="" width={'500px'} />
       </picture>
@@ -67,7 +72,7 @@ const LoginPage = () => {
             />
           </svg>
         </picture>
-        <div className="container_login relative top-52 left-28">
+        <div className="container_login relative top-48 left-28">
           <h1 className="title_principal relative text-3xl font-bold ">
             Login
           </h1>
@@ -77,7 +82,7 @@ const LoginPage = () => {
         </div>
         <form
           action=""
-          className=" relative top-52 left-28 flex flex-col gap-1"
+          className=" relative top-48 left-28 flex flex-col gap-1"
         >
           <label htmlFor="email" className="label_email">
             Email
@@ -92,7 +97,10 @@ const LoginPage = () => {
           </button>
         </form>
         <p className="p2_login relative top-56 left-52">
-          Did you forget your password?
+          Did you forget your password?{' '}
+          <Link className=" text-slate-600" href="/singUp">
+            singUp
+          </Link>
         </p>
       </div>
     </div>
