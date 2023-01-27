@@ -13,15 +13,18 @@ const index = () => {
       <NavBar />
       <picture>
         <img className=" w-full" src="../baner_torneos.jpg" alt="" />
-        <Link className=" absolute top-28 left-32 " href="/">
+        <Link className=" absolute top-28 left-24 text-white " href="/">
           Home/
         </Link>
-        <Link className=" absolute top-28 left-44 " href="/torneos-y-eventos">
+        <Link
+          className=" absolute top-28 left-36 text-white "
+          href="/torneos-y-eventos"
+        >
           torneos-y-eventos
         </Link>
 
         <svg
-          className=" absolute top-40 left-48"
+          className=" absolute top-40 left-24"
           width="394"
           height="46"
           viewBox="0 0 394 46"
@@ -36,10 +39,10 @@ const index = () => {
       </picture>
       <Resent_serch />
       <div>
-        <h1 className=" font-bold text-xl relative left-52 pt-10">
+        <h1 className=" font-bold text-xl relative left-24 pt-10">
           Populares en Querétaro
         </h1>
-        <p className="relative left-56 text-neutral-500">
+        <p className="relative left-24 text-neutral-500">
           Lo que las personas piden más
         </p>
         <Cart />

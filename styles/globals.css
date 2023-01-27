@@ -18,6 +18,14 @@
   background-color: #fff;
 }
 
+body {
+  overflow-x: hidden;
+  max-width: 1500px;
+
+}
+
+
+
 * {
   box-sizing: border-box;
   padding: 0;

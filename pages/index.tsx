@@ -21,10 +21,10 @@ export default function Home() {
       <Header />
       {/* <Btn_next /> */}
       <Btn_next_page />
-      <h1 className=" font-bold text-xl relative left-52">
+      <h1 className=" font-bold text-xl relative left-24">
         Populares en Querétaro
       </h1>
-      <p className="relative left-56 text-neutral-500">
+      <p className="relative left-24 text-neutral-500">
         Lo que las personas piden más
       </p>
       <Cart />

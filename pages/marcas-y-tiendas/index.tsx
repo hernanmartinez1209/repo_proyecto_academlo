@@ -12,14 +12,14 @@ const Marcas_y_Tiendas = () => {
       <NavBar />
       <picture>
         <img className=" w-full" src="../Rectangle_134.jpg" alt="" />
-        <Link className=" absolute top-28 left-32 " href="/">
+        <Link className=" absolute top-28 left-24 " href="/">
           Home/
         </Link>
-        <Link className=" absolute top-28 left-44 " href="/marcas-y-tiendas">
+        <Link className=" absolute top-28 left-36 " href="/marcas-y-tiendas">
           marcas-y-tiendas
         </Link>
         <svg
-          className=" absolute top-40 left-48"
+          className=" absolute top-40 left-24"
           width="366"
           height="47"
           viewBox="0 0 366 47"
@@ -34,10 +34,10 @@ const Marcas_y_Tiendas = () => {
       </picture>
       <Resent_serch />
       <div>
-        <h1 className=" font-bold text-xl relative left-52 pt-10">
+        <h1 className=" font-bold text-xl relative left-24 pt-10">
           Populares en Querétaro
         </h1>
-        <p className="relative left-56 text-neutral-500">
+        <p className="relative left-24 text-neutral-500">
           Lo que las personas piden más
         </p>
         <Cart />

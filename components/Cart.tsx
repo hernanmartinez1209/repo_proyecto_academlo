@@ -31,7 +31,7 @@ const Cart = () => {
   const userVotos = db.map((user) => user.votos);
   return (
     //
-    <article className=" flex justify-center gap-4 pad addpadding">
+    <article className=" flex justify-center lg:gap-4 xl:gap-4 xs:gap-4  pad addpadding max">
       <Swiper
         spaceBetween={50}
         slidesPerView={3}

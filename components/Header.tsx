@@ -7,10 +7,10 @@ import Torneos from './Torneos';
 
 const Header = () => {
   return (
-    <header>
+    <header className=" ">
       <picture className=" flex justify-center items-center">
         <img src="../Frame.png" alt="" className="absolute  top-28  " />
-        <img className="wfimg " src="../Rectangle 21.jpg" alt="" />
+        <img className="wfimg  w-full " src="../Rectangle 21.jpg" alt="" />
       </picture>
       <Serch />
 
