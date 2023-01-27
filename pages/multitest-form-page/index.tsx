@@ -47,7 +47,7 @@ const CreatePublication = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
       <div>
         <div>
-          <label className="pl-[310px] pt-[10px] text-[#7D7D7D]" htmlFor='TituloDelaPublicacion-input'>TituloDelaPublicacion</label>
+          <label className="pl-[310px] pt-[20px] text-[#7D7D7D]" htmlFor='TituloDelaPublicacion-input'>TituloDelaPublicacion</label>
         </div>
         <div>
            <input type='text' id='TituloDelaPublicacion-input' {...register("TituloDelaPublicacion")} />
