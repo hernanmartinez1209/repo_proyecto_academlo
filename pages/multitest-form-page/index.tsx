@@ -15,7 +15,7 @@ const CreatePublication = () => {
     console.log(data);
   }
   return (
-    <div className="flex " >
+    <div className="flex bg-[#ECE6E6]" >
       <div >
         <picture>
           <img className="h-[693px] w-[255px]" src="../img-form-pages.png" alt="" />
@@ -37,9 +37,14 @@ const CreatePublication = () => {
       <div>
         <div >
           <h3 className="pl-[90px] pt-[36px] text-[#1B4DB1]">Back</h3>
+          <div className=" w-[320px] z-10 bg-[#1B4DB1] h-3 absolute top-20 ml-[300px] rounded-lg">
+         </div>
+         <div className="w-[315px] h-3 bg-[#D9D9D9] absolute top-[80px] ml-[600px] rounded-lg">
+
+         </div>
           <div >
             <h2 className="pl-[310px] pt-[87px] text-[#1A1E2E]">Publicacion</h2>
-          <h5  className="pl-[310px] pt-[9px] text-[12px] text-[#6E6A6C]">Informacion basica</h5>
+          <h5  className="pl-[310px] pt-[9px] mb-6 text-[12px] text-[#6E6A6C]">Informacion basica</h5>
           </div>
           
         </div>
@@ -47,20 +52,20 @@ const CreatePublication = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
       <div>
         <div>
-          <label className="pl-[310px] pt-[20px] text-[#7D7D7D]" htmlFor='TituloDelaPublicacion-input'>TituloDelaPublicacion</label>
+          <label className="text-[14px] ml-[330px] absolute top-[220px] pl-2  pr-2 bg-white text-[#7D7D7D]" htmlFor='TituloDelaPublicacion-input'>TituloDelaPublicacion</label>
         </div>
         <div>
-           <input type='text' id='TituloDelaPublicacion-input' {...register("TituloDelaPublicacion")} />
+           <input className="ml-[310px] w-[620px] pl-1 mt-2  rounded-[10px] border-solid border-[1px] border-[#7D7D7D] h-[49px]" type='text' id='TituloDelaPublicacion-input' {...register("TituloDelaPublicacion")} />
         </div>
       </div>
       <div>
-        <select name="Tipo" id="Tipo">
+        <select className= "text-[14px] text-[#7D7D7D] ml-[310px] mt-4 rounded-[11px] border-solid border-[1px] border-[#7D7D7D] h-[51px] w-[300px]" name="Tipo" id="Tipo">
           <option value="Tipo">Tipo</option>
           <option value="Marcas y Tiendas">Marcas y Tiendas</option>
           <option value="Artistas y conciertos">Artistas y conciertos</option>
           <option value="Torneos">Torneos</option>
         </select>
-        <select name="Categoria" id="Categoria">
+        <select className=" text-[14px] text-[#7D7D7D] mt-4 rounded-[11px] border-solid border-[1px] border-[#7D7D7D] h-[51px] w-[300px] ml-[20px]" id="Categoria">
           <option value="categoria">Categoria</option>
           <option value="Deportes">Deportes</option>
           <option value="Conciertos">Conciertos</option>
@@ -70,22 +75,20 @@ const CreatePublication = () => {
           <option value="Tecnología">Tecnología</option>
         </select>
         <div>
-          <textarea name="Porque lo recomiendas" >Porque lo recomiendas</textarea>
+          <h2 className="text-[14px] pr-2 pl-1 ml-[330px] absolute top-[360px] bg-white text-[#7D7D7D]">¿ Porque lo recomiendas?</h2>
+          <textarea className="mt-[26px] ml-[310px] rounded-[11px] border-solid border-[1px] border-[#7D7D7D] w-[620px] h-[115px] pl-1"> </textarea>
         </div>
         <div>
-          <label htmlFor="url">Link de referencia</label>
+          <label className="pl-1 pr-2 bg-white text-[14px] absolute top-[504px] ml-[330px] text-[#7D7D7D]" htmlFor="url">Link de referencia</label>
         </div>
         <div>
-          <input type="text" name="" id="" />
+          <input className="mt-[20px] ml-[310px] w-[620px] h-[51px] rounded-[11px] border-solid border-[1px] border-[#7D7D7D] " type="text" name="" id="" />
         </div>
       </div>
-      <button type='submit'>Submit</button>
+      <button className="ml-[600px] w-[124px] rounded-[31px] h-[47px] mt-[40px] text-white bg-[#1B4DB1]" type='submit'>Submit</button>
     </form>
       </div>
-    
     </div>
-   
-
   )
 }
 
