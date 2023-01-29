@@ -6,8 +6,12 @@ const LoginPage = () => {
       <Link className=" absolute right-7 top-10" href="/">
         Home
       </Link>
-      <picture>
-        <img src="../Rectangle 133.jpg" alt="" width={'500px'} />
+      <picture className="maxi h-full">
+        <img
+          className=" xl:h-[936px] w-[500px]"
+          src="../Rectangle 133.jpg"
+          alt="z"
+        />
       </picture>
       <div className="from_login relative left-28">
         <picture className="logo relative left-52 top-28">

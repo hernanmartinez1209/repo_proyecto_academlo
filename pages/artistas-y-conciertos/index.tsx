@@ -9,7 +9,7 @@ import Sugerencias_para_ti from '../../components/Sugerencias_para_ti';
 
 const Artistas_y_Conciertos = () => {
   return (
-    <div>
+    <div className="bg-[#ECE6E6]">
       <NavBar />
       <picture>
         <img

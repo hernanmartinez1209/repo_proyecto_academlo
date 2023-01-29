@@ -26,7 +26,7 @@ const NavBar = () => {
                 alt=""
               />
             </picture>
-            iniciar secion
+            iniciar sesión
           </Link>
         </li>
         <li>

@@ -41,12 +41,7 @@ const next_page_public = () => {
           >
             Back
           </Link>
-          <div className=" w-[630px] bg-[#1B4DB1] h-3 absolute top-20 right-64  rounded-lg">
-            {/* <h2 className="pl-[310px] pt-[87px] text-[#1A1E2E]">Publicacion</h2>
-            <h5 className="pl-[310px] pt-[9px] text-[12px] ">
-              Informacion basica
-            </h5> */}
-          </div>
+          <div className=" w-[630px] bg-[#1B4DB1] h-3 absolute top-20 right-64  rounded-lg"></div>
         </div>
         <div className=" w-full flex justify-center items-center flex-col">
           <h1 className=" relative top-28 left-12">Fotos</h1>

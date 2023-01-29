@@ -5,7 +5,7 @@ import Torneos from './Torneos';
 
 const Resent_serch = () => {
   return (
-    <div className="container-link border-down flex h-36 justify-center items-center ">
+    <div className="container-link  flex h-36 justify-center items-center ">
       <div className=" flex relative lg:right-32 gap-3 xl:right-48">
         <Marcas_Tiendas />
         <Artistas_Conciertos />
