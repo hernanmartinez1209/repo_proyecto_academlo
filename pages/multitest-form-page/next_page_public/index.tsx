@@ -2,7 +2,7 @@ import Link from 'next/link';
 const next_page_public = () => {
   return (
     <div className="flex ">
-      <div>
+      <div >
         <picture>
           <img
             className="h-[693px] w-[255px]"
@@ -13,7 +13,7 @@ const next_page_public = () => {
         <picture>
           <img
             className="absolute top-28 w-40 pl-4 "
-            src="../frame.png"
+            src="../Frame.png"
             alt=""
           />
         </picture>

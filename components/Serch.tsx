@@ -8,9 +8,7 @@ const Serch = () => {
         type="text"
         placeholder="¿Qué quieres ver en tu ciudad?"
       />
-       <picture> 
-        <img className="absolute top-[380px] ml-[970px]" src="../lupa.png" alt="" />
-      </picture>
+    
       {/* <svg
         className="serch"
         width="18"
