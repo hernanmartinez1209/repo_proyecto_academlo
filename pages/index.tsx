@@ -10,7 +10,7 @@ import HomePega from './home';
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="centralizacion">
         <HomePega />
       </div>
     </>

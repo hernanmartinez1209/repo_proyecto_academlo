@@ -1,8 +1,12 @@
+import Btn_next_page from './Btn_next_page';
 import Cart from './Cart';
 
 const Resientes = () => {
   return (
     <div>
+      <div className=" w-full flex flex-row-reverse relative top-96">
+        <Btn_next_page />
+      </div>
       <h1 className="font-bold text-xl relative left-24  top-16 pt-10">
         Resientes
       </h1>

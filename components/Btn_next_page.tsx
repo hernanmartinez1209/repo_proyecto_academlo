@@ -1,6 +1,6 @@
 const Btn_next_page = () => {
   return (
-    <div className=" h-20 flex justify-center  left-02">
+    <div className=" h-20 flex justify-center  ">
       <svg
         className=" relative  bottom-1"
         width="53"

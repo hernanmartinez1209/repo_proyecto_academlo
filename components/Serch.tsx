@@ -1,18 +1,13 @@
 const Serch = () => {
   return (
     <div>
-      <form action="serch">
+      <form action="serch" className="relative flex justify-center">
         <input
-          className="input_serch  w-[465px] h-9 rounded-2xl centarItemen relative left-[440px]"
-          type="text"
+          className="w-[465px] h-9 rounded-2xl "
           placeholder="¿Qué quieres ver en tu ciudad?"
         />
-        <picture>
-          <img
-            className="absolute top-[380px] ml-[970px]"
-            src="../lupa.png"
-            alt=""
-          />
+        <picture className=" relative">
+          <img className=" relative right-8 top-2" src="../lupa.png" alt="" />
         </picture>
         {/* <svg
         className="serch"

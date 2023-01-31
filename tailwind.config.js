@@ -13,6 +13,7 @@ module.exports = {
       md: '900px',
       lg: '1200px',
       xl: '1536px',
+      xx: '2000px',
     },
     // colors: {
     //   '--pharagap-back': ' #4D4D4D',
