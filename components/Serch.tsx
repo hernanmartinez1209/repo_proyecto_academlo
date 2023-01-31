@@ -2,7 +2,7 @@ const Serch = () => {
   return (
     <form action="serch">
       <input
-        className="input_serch  w-80  h-9 rounded-2xl centarItemen"
+        className="input_serch  w-[465px] h-9 rounded-2xl centarItemen relative left-[440px]"
         type="text"
         placeholder="¿Qué quieres ver en tu ciudad?"
       />
