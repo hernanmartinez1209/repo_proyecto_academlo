@@ -3,8 +3,10 @@ import Link from 'next/link';
 const LoginPage = () => {
   return (
     <div className="login_principal flex routes-bg">
+
       <Link className=" absolute right-7 top-10" href="/">
-        Home
+      
+      
       </Link>
       <picture className="maxi h-full">
         <img
@@ -12,9 +14,11 @@ const LoginPage = () => {
           src="../Rectangle 133.jpg"
           alt="z"
         />
-      </picture>
-      <div className="from_login relative left-28">
-        <picture className="logo relative left-52 top-28">
+   </picture>
+   <Link href="/">
+    <div className="from_login relative left-28">
+
+         <picture className="logo relative left-52 top-28">
           <svg
             width="187"
             height="168"
@@ -107,6 +111,8 @@ const LoginPage = () => {
           </Link>
         </p>
       </div>
+   </Link>
+      
     </div>
   );
 };

@@ -6,8 +6,12 @@ const Serch = () => {
           className="w-[465px] h-9 rounded-2xl "
           placeholder="¿Qué quieres ver en tu ciudad?"
         />
-        <picture className=" relative">
-          <img className=" relative right-8 top-2" src="../lupa.png" alt="" />
+        <picture>
+          <img
+            className="absolute top-[380px] ml-[970px]"
+            src="../lupa.png"
+            alt=""
+          />
         </picture>
         {/* <svg
         className="serch"
@@ -26,5 +30,4 @@ const Serch = () => {
     </div>
   );
 };
-
 export default Serch;
