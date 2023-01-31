@@ -1,11 +1,16 @@
 const Serch = () => {
   return (
-    <form action="serch">
+    <div>
+   
+       <form action="serch">
       <input
-        className="input_serch  w-80  h-9 rounded-2xl centarItemen"
+        className="input_serch  w-[465px]  h-[46px] rounded-[23px] centarItemen pl-4"
         type="text"
         placeholder="¿Qué quieres ver en tu ciudad?"
       />
+       <picture> 
+        <img className="absolute top-[380px] ml-[970px]" src="../lupa.png" alt="" />
+      </picture>
       {/* <svg
         className="serch"
         width="18"
@@ -20,6 +25,9 @@ const Serch = () => {
         />
       </svg> */}
     </form>
+    </div>
+   
+  
   );
 };
 
