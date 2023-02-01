@@ -7,7 +7,7 @@ const Serch = () => {
           placeholder="¿Qué quieres ver en tu ciudad?"
         />
         <picture className=" relative">
-          <img className="" src="../lupa.png" alt="" />
+          <img className=" relative right-10 top-2" src="../lupa.png" alt="" />
         </picture>
         {/* <svg
         className="serch"

@@ -9,7 +9,7 @@ import Sugerencias_para_ti from '../../components/Sugerencias_para_ti';
 
 const index = () => {
   return (
-    <div>
+    <div className=" bg-white">
       <NavBar />
       <picture>
         <img className=" w-full" src="../baner_torneos.jpg" alt="" />

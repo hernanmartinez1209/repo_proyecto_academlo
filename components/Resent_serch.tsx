@@ -11,7 +11,7 @@ const Resent_serch = () => {
         <Artistas_Conciertos />
         <Torneos />
       </div>
-      <div className=" relative top-24 lg:right-16 xl:right-10">
+      <div className=" flex flex-row-reverse relative left-28">
         <Serch />
       </div>
     </div>

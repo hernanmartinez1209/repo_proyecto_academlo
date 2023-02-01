@@ -32,19 +32,21 @@ const Marcas_y_Tiendas = () => {
           />
         </svg>
       </picture>
-      <Resent_serch />
-      <div>
-        <h1 className=" font-bold text-xl relative left-24 pt-10">
-          Populares en Querétaro
-        </h1>
-        <p className="relative left-24 text-neutral-500">
-          Lo que las personas piden más
-        </p>
-        <Cart />
+      <div className="centralizacion">
+        <div>
+          <Resent_serch />
+          <h1 className=" font-bold text-xl relative left-24 pt-10">
+            Populares en Querétaro
+          </h1>
+          <p className="relative left-24 text-neutral-500">
+            Lo que las personas piden más
+          </p>
+          <Cart />
+        </div>
+        <Sugerencias_para_ti />
+        <Mas_personal />
+        <Resientes />
       </div>
-      <Sugerencias_para_ti />
-      <Mas_personal />
-      <Resientes />
       <Footer />
     </div>
   );
