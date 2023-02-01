@@ -8,7 +8,7 @@ import Sugerencias from '../Sugerencias';
 const HomePega = () => {
   return (
     <Layout>
-      <div>
+      <div className="">
         {/* <Btn_next /> */}
         <div className=" w-full flex flex-row-reverse relative top-96">
           <Btn_next_page />
@@ -19,7 +19,9 @@ const HomePega = () => {
         <p className="relative left-24 text-neutral-500 top-16">
           Lo que las personas piden más
         </p>
-        <Cart />
+        <div className="h-[500px]">
+          <Cart />
+        </div>
         <Sugerencias />
         <Mas_personal />
         <Resientes />

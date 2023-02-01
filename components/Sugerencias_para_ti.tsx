@@ -2,7 +2,7 @@ import Cart from './Cart';
 
 const Sugerencias_para_ti = () => {
   return (
-    <div>
+    <div className="h-[100px]">
       <h1 className=" font-bold text-xl relative left-24 pt-10">
         Sugerencias_para_ti
       </h1>

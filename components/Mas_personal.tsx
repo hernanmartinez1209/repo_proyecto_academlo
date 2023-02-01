@@ -1,6 +1,6 @@
 const Mas_personal = () => {
   return (
-    <div className=" lg:w-[1100px] xl:w-[1200px] relative left-24">
+    <div className=" lg:w-[1100px] xl:w-[1200px] relative left-24 bottom-28 h-[100px] ">
       <h1 className=" relative left-24 top-24 font-bold text-gay w-full">
         ¡Hagámoslo más personal!
       </h1>

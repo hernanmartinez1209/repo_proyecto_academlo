@@ -21,8 +21,27 @@
 
 }
 
+.bg_img {
+  background-image: url('../public/Rectangle 21.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg_footer {
+  background-image: url('../public/footer.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p-0 {
+  padding: 0;
+  margin: 0;
+}
+
 .centralizacion {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: auto;
 }
 

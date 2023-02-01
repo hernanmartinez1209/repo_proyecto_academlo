@@ -31,7 +31,7 @@ const Cart = () => {
   const userVotos = db.map((user) => user.votos);
   return (
     //
-    <article className=" flex justify-center lg:gap-4 xl:gap-4 xs:gap-4  pad addpadding max">
+    <article className=" flex justify-center lg:gap-4 xl:gap-4 xs:gap-4  pad addpadding max ">
       <Swiper
         spaceBetween={50}
         slidesPerView={3}
@@ -46,15 +46,19 @@ const Cart = () => {
 
             <Likes />
             <article className="relative bottom-16 pl-[18px] ">
-              <h1 className="h1_cart padig-left pl-[18px] mt-1"> {userName[2]} </h1>
+              <h1 className="h1_cart padig-left pl-[18px] mt-1">
+                {' '}
+                {userName[2]}{' '}
+              </h1>
               <p className="padig-left pl-[20px] mt-2">{userDescripcio[2]}</p>
-              <div className='mt-[58px]'>
+              <div className="mt-[58px]">
                 <a href="bts.com" className="text-[#1B4DB1] pl-[18px]">
-                bts.com
-              </a>
+                  bts.com
+                </a>
               </div>
-              
-              <svg className='ml-[20px] mt-1'
+
+              <svg
+                className="ml-[20px] mt-1"
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"
@@ -67,7 +71,10 @@ const Cart = () => {
                   strokeWidth="1.5"
                 />
               </svg>
-              <p className=" relative left-6 bottom-4 pl-[20px]"> {userVotos[0]} </p>
+              <p className=" relative left-6 bottom-4 pl-[20px]">
+                {' '}
+                {userVotos[0]}{' '}
+              </p>
             </article>
           </div>
         </SwiperSlide>
@@ -81,9 +88,14 @@ const Cart = () => {
             <Likes />
             <article className="relative bottom-16">
               <h1 className="h1_cart padig-left pl-[18px]"> {userName[0]} </h1>
-              <p className="padig-left pl-[18px] pr-[8px] pt-1">{userDescripcio[0]}</p>
-              <a href="ladygaga.com" className="text-[#1B4DB1] pl-[20px]">ladygaga.com</a>
-              <svg className='ml-[20px] mt-1'
+              <p className="padig-left pl-[18px] pr-[8px] pt-1">
+                {userDescripcio[0]}
+              </p>
+              <a href="ladygaga.com" className="text-[#1B4DB1] pl-[20px]">
+                ladygaga.com
+              </a>
+              <svg
+                className="ml-[20px] mt-1"
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"
@@ -96,7 +108,10 @@ const Cart = () => {
                   strokeWidth="1.5"
                 />
               </svg>
-              <p className=" relative left-6 bottom-4 pl-[20px] "> {userVotos[0]} </p>
+              <p className=" relative left-6 bottom-4 pl-[20px] ">
+                {' '}
+                {userVotos[0]}{' '}
+              </p>
             </article>
           </div>
         </SwiperSlide>
@@ -110,13 +125,14 @@ const Cart = () => {
             <article className="relative bottom-16 ">
               <h1 className="h1_cart pl-[20px] "> {userName[1]} </h1>
               <p className="pl-[20px]">{userDescripcio[1]}</p>
-              <div className='mt-[38px]'>
+              <div className="mt-[38px]">
                 <a href="zara.com" className="text-[#1B4DB1] pl-[20px]">
-                zara.com
-              </a>
+                  zara.com
+                </a>
               </div>
-              
-              <svg className='ml-[23px] mt-2'
+
+              <svg
+                className="ml-[23px] mt-2"
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"
@@ -129,7 +145,10 @@ const Cart = () => {
                   strokeWidth="1.5"
                 />
               </svg>
-              <p className=" relative left-6 bottom-4 pl-[23px] "> {userVotos[0]} </p>
+              <p className=" relative left-6 bottom-4 pl-[23px] ">
+                {' '}
+                {userVotos[0]}{' '}
+              </p>
             </article>
           </div>
         </SwiperSlide>

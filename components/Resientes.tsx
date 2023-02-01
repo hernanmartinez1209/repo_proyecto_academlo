@@ -3,7 +3,7 @@ import Cart from './Cart';
 
 const Resientes = () => {
   return (
-    <div>
+    <div className="h-[700px] relative bottom-28">
       <div className=" w-full flex flex-row-reverse relative top-96">
         <Btn_next_page />
       </div>

@@ -3,11 +3,11 @@ const Serch = () => {
     <div>
       <form action="serch" className="relative flex justify-center">
         <input
-          className="w-[465px] h-9 rounded-2xl "
+          className="w-[465px] h-[46px]  rounded-[23px] "
           placeholder="¿Qué quieres ver en tu ciudad?"
         />
         <picture className=" relative">
-          <img className=" relative right-10 top-2" src="../lupa.png" alt="" />
+          <img className=" relative right-10 top-4" src="../lupa.png" alt="" />
         </picture>
         {/* <svg
         className="serch"

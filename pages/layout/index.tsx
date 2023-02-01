@@ -10,7 +10,9 @@ const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <Header />
-      <main className="centralizacion">{children}</main>
+      <main className="centralizacion h-[2000px] relative bottom-40 ">
+        {children}
+      </main>
       <Footer />
     </div>
   );
