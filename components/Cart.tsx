@@ -45,13 +45,16 @@ const Cart = () => {
             </picture>
 
             <Likes />
-            <article className="relative bottom-16 pl-[23px] ">
-              <h1 className="h1_cart padig-left pl-[23px] mt-1"> {userName[2]} </h1>
-              <p className="padig-left pl-[23px] mt-1">{userDescripcio[2]}</p>
-              <a href="bts.com" className="text-[#1B4DB1] pl-[23px] mt-1 ">
+            <article className="relative bottom-16 pl-[18px] ">
+              <h1 className="h1_cart padig-left pl-[18px] mt-1"> {userName[2]} </h1>
+              <p className="padig-left pl-[20px] mt-2">{userDescripcio[2]}</p>
+              <div className='mt-[58px]'>
+                <a href="bts.com" className="text-[#1B4DB1] pl-[18px]">
                 bts.com
               </a>
-              <svg className='ml-[23px] mt-1'
+              </div>
+              
+              <svg className='ml-[20px] mt-1'
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"
@@ -64,7 +67,7 @@ const Cart = () => {
                   strokeWidth="1.5"
                 />
               </svg>
-              <p className=" relative left-6 bottom-4 pl-[23px]"> {userVotos[0]} </p>
+              <p className=" relative left-6 bottom-4 pl-[20px]"> {userVotos[0]} </p>
             </article>
           </div>
         </SwiperSlide>
@@ -107,9 +110,12 @@ const Cart = () => {
             <article className="relative bottom-16 ">
               <h1 className="h1_cart pl-[20px] "> {userName[1]} </h1>
               <p className="pl-[20px]">{userDescripcio[1]}</p>
-              <a href="zara.com" className="text-[#1B4DB1] pl-[20px]">
+              <div className='mt-[38px]'>
+                <a href="zara.com" className="text-[#1B4DB1] pl-[20px]">
                 zara.com
               </a>
+              </div>
+              
               <svg className='ml-[23px] mt-2'
                 width="17"
                 height="17"
