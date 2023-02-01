@@ -47,7 +47,9 @@ const CreatePublication = () => {
       </div>
       <div>
         <div>
-          <h3 className="pl-[90px] pt-[36px] text-[#1B4DB1]">Back</h3>
+          <Link href="/">
+            <h3 className="pl-[90px] pt-[36px] text-[#1B4DB1]">Back</h3>
+          </Link>
           <div className=" w-[320px] z-10 bg-[#1B4DB1] h-3 absolute top-20 ml-[300px] rounded-lg"></div>
           <div className="w-[315px] h-3 bg-[#D9D9D9] absolute top-[80px] ml-[600px] rounded-lg"></div>
           <div>
