@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Torneos = () => {
   return (
     <Link
-      className="alllados flex items-center justify-center a w-[Hug (86px)] h-9  rounded-2xl border-c routes-bg"
+      className="alllados flex items-center justify-center a w-[Hug (86px)] h-9  rounded-2xl border-c  bg-white"
       href="/torneos-y-eventos"
     >
       Torneos

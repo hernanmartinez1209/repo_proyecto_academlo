@@ -3,11 +3,13 @@
 import Serch from '../components/Serch';
 import Artistas_Conciertos from './Artistas_Conciertos';
 import Marcas_Tiendas from './Marcas_Tiendas';
+import NavBar from './NavBar';
 import Torneos from './Torneos';
 
 const Header = () => {
   return (
     <header className=" ">
+      <NavBar />
       <picture className="  flex justify-center items-center">
         <img src="../Frame.png" alt="" className="absolute  top-28  " />
         <img className="wfimg  w-full " src="../Rectangle 21.jpg" alt="" />

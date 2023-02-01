@@ -15,7 +15,7 @@ const CreatePublication = () => {
     console.log(data);
   };
   return (
-    <div className="flex bg-[#ECE6E6]">
+    <div className="flex bg-white">
       <div>
         <picture>
           <img

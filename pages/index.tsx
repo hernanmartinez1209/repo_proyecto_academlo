@@ -10,7 +10,7 @@ import HomePega from './home';
 export default function Home() {
   return (
     <>
-      <div className="centralizacion bg-white">
+      <div className=" bg-white">
         <HomePega />
       </div>
     </>

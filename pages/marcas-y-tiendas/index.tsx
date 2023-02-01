@@ -8,7 +8,7 @@ import Resientes from '../../components/Resientes';
 import Sugerencias_para_ti from '../../components/Sugerencias_para_ti';
 const Marcas_y_Tiendas = () => {
   return (
-    <div>
+    <div className=" bg-white">
       <NavBar />
       <picture>
         <img className=" w-full" src="../Rectangle_134.jpg" alt="" />
