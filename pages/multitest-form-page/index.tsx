@@ -27,7 +27,7 @@ const CreatePublication = () => {
         <picture>
           <img
             className="absolute top-28 w-40 pl-4 "
-            src="../frame.png"
+            src="../Frame.png"
             alt=""
           />
         </picture>
