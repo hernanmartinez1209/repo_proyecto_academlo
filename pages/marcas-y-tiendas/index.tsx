@@ -43,7 +43,9 @@ const Marcas_y_Tiendas = () => {
           </p>
           <Cart />
         </div>
-        <Sugerencias_para_ti />
+        <div className="h-[700px]">
+          <Sugerencias_para_ti />
+        </div>
         <Mas_personal />
         <Resientes />
       </div>

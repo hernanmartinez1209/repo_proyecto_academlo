@@ -2,7 +2,7 @@ import Link from 'next/link';
 const next_page_public = () => {
   return (
     <div className="flex ">
-      <div >
+      <div>
         <picture>
           <img
             className="h-[693px] w-[255px]"
@@ -58,7 +58,7 @@ const next_page_public = () => {
               />
               <picture>
                 <img
-                  className="  h-12 w-44 absolute right-[417px]  "
+                  className="  h-12 w-44 absolute right-[421px]  "
                   src="../Rectangle_183.jpg"
                   alt=""
                 />
@@ -76,7 +76,7 @@ const next_page_public = () => {
               />
               <picture>
                 <img
-                  className="  h-12 w-44 absolute right-[225px]  "
+                  className="  h-12 w-44 absolute right-[229px]  "
                   src="../Rectangle_183.jpg"
                   alt=""
                 />
@@ -94,7 +94,7 @@ const next_page_public = () => {
               />
               <picture>
                 <img
-                  className="  h-12 w-44 absolute right-[33px]  "
+                  className="  h-12 w-44 absolute right-[37px]  "
                   src="../Rectangle_183.jpg"
                   alt=""
                 />
@@ -104,9 +104,12 @@ const next_page_public = () => {
                   alt=""
                 />
               </picture>
-              <button className="bg-[#1B4DB1] absolute top-80 w-44 h-10 left-56 rounded-lg text-white">
-                Publicar
-              </button>
+
+              <Link href="/">
+                <button className="bg-[#1B4DB1] absolute top-80 w-44 h-10 left-56 rounded-lg text-white">
+                  Publicar
+                </button>
+              </Link>
             </form>
           </div>
         </div>

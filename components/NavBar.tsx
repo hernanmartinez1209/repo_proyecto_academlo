@@ -9,30 +9,21 @@ const NavBar = () => {
         </picture>
       </Link>
       <ul className=" flex flex-row gap-5 relative right-3">
-        <li className="">
+        <li>
           <Link
-            className="flex  justify-center items-center gap-2"
-            href="/login"
+            className="flex  justify-center items-center gap-2  relative top-[3px] text-[#1B4DB1]"
+            href="/multitest-form-page"
           >
-            <picture className="">
-              <img
-                className=" absolute "
-                src="../material-symbols_person-rounded.png"
-                alt=""
-              />
-              <img
-                className=" relative right-[5px] bottom-[3px]"
-                src="../Ellipse 3.png"
-                alt=""
-              />
+            <picture>
+              <img src="../plus.png" alt="" />
             </picture>
-            iniciar sesión
+            Crear publicación
           </Link>
         </li>
         <li>
           <Link
             className="flex  justify-center items-center gap-2 relative top-[4px]"
-            href="/misvotos"
+            href="/perfil"
           >
             <svg
               className="text-red-700 flex  relative "
@@ -53,15 +44,24 @@ const NavBar = () => {
             Mis votos
           </Link>
         </li>
-        <li>
+        <li className="">
           <Link
-            className="flex  justify-center items-center gap-2  relative top-[3px]"
-            href="/multitest-form-page"
+            className="flex  justify-center items-center gap-2"
+            href="/login"
           >
-            <picture>
-              <img src="../plus.png" alt="" />
+            <picture className="">
+              <img
+                className=" absolute "
+                src="../material-symbols_person-rounded.png"
+                alt=""
+              />
+              <img
+                className=" relative right-[5px] bottom-[3px]"
+                src="../Ellipse 3.png"
+                alt=""
+              />
             </picture>
-            Crear publicación
+            iniciar sesión
           </Link>
         </li>
       </ul>

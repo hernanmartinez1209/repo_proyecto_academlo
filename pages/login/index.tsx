@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const LoginPage = () => {
   return (
-    <div className="login_principal flex routes-bg">
+    <div className="login_principal flex routes-bg centralizacion">
       <Link className=" absolute right-7 top-10" href="/"></Link>
       <picture className="maxi h-full">
         <img

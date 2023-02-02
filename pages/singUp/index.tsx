@@ -1,6 +1,6 @@
 const SingUp = () => {
   return (
-    <div className="login_principal flex routes-bg">
+    <div className="login_principal flex routes-bg centralizacion">
       <picture>
         <img src="../pantallaSingup.jpg" alt="" width={'500px'} />
       </picture>
